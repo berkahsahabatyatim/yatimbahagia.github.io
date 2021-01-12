@@ -81,7 +81,7 @@ function copyTextToClipboard(text) {
           case "5440149222":
             bank = "BCA"
             break
-          case "7141353222":
+          case "7148434306":
             bank = "BSM"
             break
         }
@@ -99,14 +99,6 @@ var copyBniBtn = document.querySelector('.js-copy-bni-btn'),
     copyBcaBtn = document.querySelector('.js-copy-bca-btn'),
     copyBsmBtn = document.querySelector('.js-copy-bsm-btn')
 
-copyBniBtn.addEventListener('click', function(event) {
-        copyTextToClipboard('0968922555');
-    });
-
-copyBcaBtn.addEventListener('click', function(event) {
-    copyTextToClipboard('5440149222');
-});
-
 copyBsmBtn.addEventListener('click', function(event) {
-    copyTextToClipboard('7141353222');
+    copyTextToClipboard('7148434306');
 });
