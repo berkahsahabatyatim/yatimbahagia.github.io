@@ -20,10 +20,6 @@
     }
   });
 
-  $(window).on("load",function(){
-     $(".loader-wrapper").fadeOut("slow");
-   });
-
   // Closes responsive menu when a scroll trigger link is clicked
   $('.js-scroll-trigger').click(function() {
     $('.navbar-collapse').collapse('hide');
@@ -64,45 +60,30 @@
     }
   });
 
+  $(document).ready(function(){
+  $(".fancybox").fancybox({
+        openEffect: "none",
+        closeEffect: "none"
+    });
+});
+
+
+
 })(jQuery); // End of use strict
 
-function fallbackCopyTextToClipboard(text) {
-        swal ( "" ,  "Gagal copy rekening.. silakan copy manual.." ,  "error" )
-    }
 
-function copyTextToClipboard(text) {
-    if (!navigator.clipboard) {
-        fallbackCopyTextToClipboard(text);
-        return;
-    }
-    navigator.clipboard.writeText(text).then(function() {
-        console.log('Async: Copying to clipboard was successful!');
-        var bank = "unknown"
-        switch(text) {
-          case "0968922555":
-            bank = "BNI"
-            break
-          case "5440149222":
-            bank = "BCA"
-            break
-          case "7148434306":
-            bank = "BSM"
-            break
-        }
-        swal("Berhasil copy rekening "+ bank, {
-              buttons: false,
-              timer: 750,
-            });
-    }, function(err) {
-        console.error('Async: Could not copy text: ', err);
-        fallbackCopyTextToClipboard("hmm")
-    });
-}
-
-var copyBniBtn = document.querySelector('.js-copy-bni-btn'),
-    copyBcaBtn = document.querySelector('.js-copy-bca-btn'),
-    copyBsmBtn = document.querySelector('.js-copy-bsm-btn')
-
-copyBsmBtn.addEventListener('click', function(event) {
-    copyTextToClipboard('7148434306');
-});
+var example1 = new Vue({
+  el: '#album',
+  data () {
+  	return {
+  		items: null
+    	}
+	},
+  mounted () {
+    axios
+      .get('https://api.github.com/repos/nashihu/production_stuff/contents/bsy_images')
+      .then(response => {
+      	(this.items = response.data)
+      })
+  }
+})
