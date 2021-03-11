@@ -10253,3 +10253,38 @@ table, th, td {
   padding-left: 15px;
   width: 50%;
 }
+
+.dropbtn {
+
+}
+
+.dropdown {
+
+}
+
+.dropdown-content {
+  font-size: 14px;
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #fff;
+  padding: 12px 16px;
+  padding: 16px 12px 16px 12px;
+  text-decoration: none;
+  display: block;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(0,0,0,0.1);
+}
+
+.dropdown-content a:hover {color: teal;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
