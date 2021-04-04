@@ -79,11 +79,11 @@ function copyTextToClipboard(text) {
         console.log('Async: Copying to clipboard was successful!');
         var bank = "unknown"
         switch(text) {
-          case "0968922555":
+          case "1180279271":
             bank = "BNI"
             break
-          case "5440149222":
-            bank = "BCA"
+          case "1820006645022":
+            bank = "Mandiri"
             break
           case "7148434306":
             bank = "BSM"
@@ -101,8 +101,17 @@ function copyTextToClipboard(text) {
 
 var copyBniBtn = document.querySelector('.js-copy-bni-btn'),
     copyBcaBtn = document.querySelector('.js-copy-bca-btn'),
-    copyBsmBtn = document.querySelector('.js-copy-bsm-btn')
+    copyBsmBtn = document.querySelector('.js-copy-bsm-btn'),
+    copyMandiriBtn = document.querySelector('.js-copy-mandiri-btn')
 
 copyBsmBtn.addEventListener('click', function(event) {
     copyTextToClipboard('7148434306');
+});
+
+copyMandiriBtn.addEventListener('click', function(event) {
+    copyTextToClipboard('1820006645022');
+});
+
+copyBniBtn.addEventListener('click', function(event) {
+    copyTextToClipboard('1180279271');
 });
