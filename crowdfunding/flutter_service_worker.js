@@ -4,15 +4,15 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "b5ce7bd9bdfe15c774dc523ebc04a9ec",
-"index.html": "48e6995555428dba16fcace395e8c950",
-"/": "48e6995555428dba16fcace395e8c950",
-"main.dart.js": "9ad585027fbb80f66b8c7b27ab942a11",
-"favicon.png": "5dcef449791fa27946b3d35ad8803796",
-"icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
+"index.html": "60fc687d229c1e3b22bcf6097cd43340",
+"/": "60fc687d229c1e3b22bcf6097cd43340",
+"main.dart.js": "588b958048cc3368683c11e6b5a8d4ce",
+"favicon.png": "22f347997df00585ac2c835a0fa3afa4",
+"icons/Icon-192.png": "22f347997df00585ac2c835a0fa3afa4",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "manifest.json": "5f4a82460294a8bb0afa2b576e264282",
-"assets/AssetManifest.json": "e1a1f74ea2a4625ac43fc23713df6c40",
-"assets/NOTICES": "f22e82f2d62ff22b83457755db8935d4",
+"assets/AssetManifest.json": "7aa053996f16088925d21c6ec1ade79c",
+"assets/NOTICES": "c4a4f5e28f256964c9d14d70de96d0b9",
 "assets/FontManifest.json": "5a32d4310a6f5d9a6b651e75ba0d7372",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "dffd9504fcb1894620fa41c700172994",
@@ -24,10 +24,20 @@ const RESOURCES = {
 "assets/packages/wakelock_web/assets/no_sleep.js": "7748a45cd593f33280669b29c2c8919a",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
 "assets/assets/img/favicon.ico": "556f31acd686989b1afcf382c05846aa",
+"assets/assets/img/wakaf/umkm.jpg": "ad6bf37cbb43b1a0a1e1ae34e90a9e2b",
+"assets/assets/img/wakaf/masjid.jpg": "0cb17730977b4b94fecfe5c7c0fc4782",
+"assets/assets/img/wakaf/tanah.jpg": "8514ada6ec6aa5e9c75f729ff7c27d31",
 "assets/assets/img/logobyi.png": "c87e9dd72c20c5632c26f501ad00609e",
 "assets/assets/img/logobyi-white.jpeg": "22f347997df00585ac2c835a0fa3afa4",
+"assets/assets/img/infaq/duat.jpg": "4a65c04559c38a09128949f1600fa064",
+"assets/assets/img/infaq/jumat.jpg": "5ab0d0053cac7b20bbbf43f94e932aec",
+"assets/assets/img/infaq/bencana.jpg": "9aa24c0bb075cabab0f11aa38927c69f",
+"assets/assets/img/infaq/yatim.jpg": "239bf459da4a3d3de5d36b3c4b52fdab",
 "assets/assets/img/bank/BNI.webp": "2c048b0f25a76e2dfad413cf9ff1a325",
 "assets/assets/img/bank/Mandiri.webp": "8cee425a56f29501bc7a0e61800db42d",
+"assets/assets/img/pembinaan/santripreneur.jpg": "bfe47157a82f0005b3b6a33eeaf6071a",
+"assets/assets/img/pembinaan/beasiswa.jpg": "ccd3502351d6f023e6dad7bfc9c5c866",
+"assets/assets/img/pembinaan/tahfidz.jpg": "b5d243514474c18886bc283a7c768717",
 "assets/assets/img/gmail.png": "cc25f1c11692b0d8677340604e8726b8",
 "assets/assets/img/bg-masthead.jpg": "d41f4758c194f857686beb03c49717c0",
 "assets/assets/img/program/program1.jpg": "38207ab3a465786ecda751fca4e66b99",
@@ -40,7 +50,8 @@ const RESOURCES = {
 "assets/assets/img/program/program8.jpg": "002b71e72cfdcf02cf1c6d4379b8717c",
 "assets/assets/img/logobyi.ico": "972470c4df692f68ab24088e7cb20593",
 "assets/assets/img/zakat/zakat-emas.webp": "3998c6c08e7ea801bc0cf50ead1530b4",
-"assets/assets/img/zakat/zakat-penghasilan.webp": "10a90e130136cf0468a5b6fc75819918"
+"assets/assets/img/zakat/zakat-penghasilan.webp": "10a90e130136cf0468a5b6fc75819918",
+"assets/assets/img/zakat/zakat.jpg": "67a1527194cc776f78cf4912eda4cbc8"
 };
 
 // The application shell files that are downloaded before a service worker can
