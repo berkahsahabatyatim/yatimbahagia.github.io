@@ -35262,54 +35262,53 @@ m=s.b
 l=s.f
 q.C(0,P.ao(["fullName",k,"email",p,"note",o,"phone",n,"nominal",m,"method",l,"norek",$.aca.h(0,l),"program","next","createdDate",new P.cX(Date.now(),!1).a5G()],t.X,t.z)).bH(0,new A.a2U(),t.P).hS(new A.a2V())
 this.bn()},
-R:function(b0,b1){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7=this,a8=null,a9={}
-P.e5("muncul di build")
-s=t.xS.a(T.tZ(b1,t._).b.b)
-a9.a=s
-if(s!=null){P.e5("ini dapet arg: "+H.b(s.a))
-r=s}else{r=a9.a=new A.un("x",1,"a","a","x","assets/img/bank/BNI.webp")
-P.e5("null")}a7.d=$.aca.h(0,r.f)
-q=t.w
-P.e5("size: "+H.b(b1.U(q).f.a.a))
-p=b1.U(q).f.a.a
-if(p>650){o=(b1.U(q).f.a.a-650)/2
-p=650}else o=0
-n=M.b6(a8,a8,a8,a8,a8,25,a8,a8,a8)
-m=U.aez()
-l=Z.Ps(a8)
-k=L.bi("Instruksi Pembayaran",a8,a8,a8,A.cx(a8,a8,a8,a8,a8,a8,a8,a8,a8,a8,a8,25,a8,C.c6,a8,a8,!0,a8,a8,a8,a8,a8,a8),a8,a8)
-j=U.bm(!0,10)
-i=L.bi("Transfer dengan nominal di bawah :",a8,a8,a8,a8,a8,a8)
-h=U.bm(!0,10)
-g=t.fQ
-r=M.b6(a8,T.hA(H.c([L.bi("   ",a8,a8,a8,a8,a8,a8),L.bi("Rp. "+T.UA("#,###","id_ID").td(r.b),a8,a8,a8,A.cx(a8,a8,a8,a8,a8,a8,a8,a8,a8,a8,a8,20,a8,C.c6,a8,a8,!0,a8,a8,a8,a8,a8,a8),a8,a8),R.ln(!1,!0,L.bi("SALIN",a8,a8,a8,A.cx(a8,a8,a8,a8,a8,a8,a8,a8,a8,a8,a8,15,a8,C.aN,a8,a8,!0,a8,a8,a8,a8,a8,a8),a8,a8),a8,!0,a8,a8,a8,a8,a8,a8,a8,a8,a8,new A.a2R(a9,a7),a8,a8,a8)],g),C.it),a8,a8,a8,a8,new V.ai(10,0,10,0),a8,a8)
-f=U.bm(!0,10)
-e=P.ac3(255,250,201,1)
-d=p*0.05
-e=M.b6(a8,M.b6(a8,T.hA(H.c([L.a8e(C.xq),T.m6(a8,a8,d),M.b6(a8,L.bi("PENTING! Mohon transfer tepat sampai 3 angka terakhir agar donasi terverifikasi otomatis",a8,a8,a8,a8,a8,a8),a8,a8,a8,a8,a8,a8,p-d-104)],g),C.bS),a8,a8,a8,a8,new V.ai(10,0,10,0),a8,a8),e,a8,a8,a8,new V.ai(10,0,10,0),new V.ai(0,10,0,10),a8)
-d=U.bm(!0,10)
-c=a7.Ia()
-b=U.bm(!0,10)
-a=L.bi("Pembayaran dilakukan ke rekening",a8,a8,a8,A.cx(a8,a8,a8,a8,a8,a8,a8,a8,a8,a8,a8,a8,a8,C.aN,a8,a8,!0,a8,a8,a8,a8,a8,a8),a8,a8)
-a0=U.bm(!0,10)
-a1=L.bi("Yayasan Berkah Yatim Indonesia",a8,a8,a8,A.cx(a8,a8,a8,a8,a8,a8,a8,a8,a8,a8,a8,20,a8,C.c6,a8,a8,!0,a8,a8,a8,a8,a8,a8),a8,a8)
-a2=U.bm(!0,10)
-a3=P.ac3(225,232,253,1)
-a3=M.b6(a8,M.b6(a8,T.hA(H.c([U.lk($.ac9.h(0,a9.a.f),20,a8),M.b6(a8,L.bi(a7.d,a8,a8,a8,A.cx(a8,a8,a8,a8,a8,a8,a8,a8,a8,a8,a8,a8,a8,C.c6,a8,a8,!0,a8,a8,a8,a8,a8,a8),a8,a8),a8,a8,a8,a8,a8,a8,a8),R.ln(!1,!0,L.bi("SALIN",a8,a8,a8,A.cx(a8,a8,a8,a8,a8,a8,a8,a8,a8,a8,a8,15,a8,C.c6,a8,a8,!0,a8,a8,a8,a8,a8,a8),a8,a8),a8,!0,a8,a8,a8,a8,a8,a8,a8,a8,a8,new A.a2S(a7),a8,a8,a8)],g),C.it),a8,a8,a8,a8,new V.ai(10,0,10,0),a8,a8),a3,a8,a8,a8,new V.ai(10,0,10,0),new V.ai(0,20,0,20),a8)
-a9=U.bm(!0,10)
-a4=a7.Ia()
-a5=U.bm(!0,10)
-a6=b1.U(q).f.a.a*0.15
-a6=T.a82(E.Y6(T.jo(H.c([n,m,l,k,j,i,h,r,f,e,d,c,b,a,a0,a1,a2,a3,a9,a4,a5,M.b6(a8,L.bi("\u0623\u064e\u062c\u064e\u0631\u064e\u0643\u064e  \u0627\u0644\u0644\u0651\u064e\u0647\u064f  \u0641\u0650\u064a\u0645\u0622  \u0623\u064e\u0639\u0652\u0637\u064e\u064a\u0652\u062a\u064e  \u0648\u064e\u0628\u064e\u0627\u0631\u064e\u0643\u064e\u0643\u064e  \u0641\u0650\u064a\u0645\u0622  \u0623\u064e\u0628\u0652\u0642\u064e\u064a\u0652\u062a\u064e  \u0648\u064e\u062c\u064e\u0639\u064e\u0644\u064e\u0647\u064f  \u0644\u064e\u0643  \u0637\u064e\u0647\u064f\u0648\u0631\u0627\u064b ",a8,a8,a8,A.cx(a8,a8,a8,a8,a8,a8,a8,a8,a8,a8,a8,25,a8,C.c6,a8,a8,!0,a8,a8,a8,a8,a8,a8),C.b6,a8),a8,a8,a8,a8,new V.ai(a6,0,a6,0),a8,a8),U.bm(!0,10),M.b6(a8,L.bi("Semoga Allah memberi pahala atas apa yang telah engkau berikan, menjadikannya penyuci bagimu dan melimpahkan berkah terhadap hartamu yang tersisa.",a8,a8,a8,A.cx(a8,a8,a8,a8,a8,a8,a8,a8,a8,a8,a8,20,a8,C.aN,a8,a8,!0,a8,a8,a8,a8,a8,a8),C.b6,a8),a8,a8,a8,a8,new V.ai(15,0,15,0),a8,a8),U.bm(!0,10)],g),C.bw,C.b0),C.t))
-a5=b1.U(q).f
-a4=b1.U(q).f
-a4=M.b6(a8,a8,a8,a8,new S.e6(C.j,a8,a8,K.kI(5),H.c([new O.f5(0,C.rg,new P.p(0,1),6)],t.ec),a8,C.ac),a5.a.b*0.1,a8,new V.ai(0,10,0,10),a4.a.a)
-a5=b1.U(q).f
-q=b1.U(q).f
-a9=K.aI(b1).b
-if(a7.e)r=M.b6(a8,U.abY(C.j),a8,a8,a8,35,a8,a8,35)
-else{r=a7.f?"Kembali":"Saya sudah transfer"
-r=L.bi(r,a8,a8,a8,A.cx(a8,a8,C.j,a8,a8,a8,a8,a8,a8,a8,a8,a8,a8,a8,a8,a8,!0,a8,a8,a8,a8,a8,a8),a8,a8)}return M.ae1(new P.I(4042455551),M.b6(a8,T.jo(H.c([a6,T.p8(C.aL,H.c([a4,T.DV(a8,M.b6(a8,B.lA(r,a9,a8,a8,new A.a2T(a7,b1)),a8,a8,a8,q.a.b*0.07,a8,a8,a5.a.a-20),a8,a8,a8,a8,10,a8)],g),C.f4)],g),C.bw,C.b0),C.j,a8,a8,a8,new V.ai(20,0,20,0),new V.ai(o,0,o,0),a8))},
+R:function(b0,b1){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6=this,a7=null,a8={},a9=t.xS.a(T.tZ(b1,t._).b.b)
+a8.a=a9
+if(a9!=null){P.e5("ini dapet arg: "+H.b(a9.a))
+P.e5("asli aneh banget "+a9.f)
+s=a9}else{s=a8.a=new A.un("x",1,"a","a","x","assets/img/bank/BNI.webp")
+P.e5("null")}a6.d=$.aca.h(0,s.f)
+r=t.w
+P.e5("size: "+H.b(b1.U(r).f.a.a))
+q=b1.U(r).f.a.a
+if(q>650){p=(b1.U(r).f.a.a-650)/2
+q=650}else p=0
+o=M.b6(a7,a7,a7,a7,a7,25,a7,a7,a7)
+n=U.aez()
+m=Z.Ps(a7)
+l=L.bi("Instruksi Pembayaran",a7,a7,a7,A.cx(a7,a7,a7,a7,a7,a7,a7,a7,a7,a7,a7,25,a7,C.c6,a7,a7,!0,a7,a7,a7,a7,a7,a7),a7,a7)
+k=U.bm(!0,10)
+j=L.bi("Transfer dengan nominal di bawah :",a7,a7,a7,a7,a7,a7)
+i=U.bm(!0,10)
+h=t.fQ
+s=M.b6(a7,T.hA(H.c([L.bi("   ",a7,a7,a7,a7,a7,a7),L.bi("Rp. "+T.UA("#,###","id_ID").td(s.b),a7,a7,a7,A.cx(a7,a7,a7,a7,a7,a7,a7,a7,a7,a7,a7,20,a7,C.c6,a7,a7,!0,a7,a7,a7,a7,a7,a7),a7,a7),R.ln(!1,!0,L.bi("SALIN",a7,a7,a7,A.cx(a7,a7,a7,a7,a7,a7,a7,a7,a7,a7,a7,15,a7,C.aN,a7,a7,!0,a7,a7,a7,a7,a7,a7),a7,a7),a7,!0,a7,a7,a7,a7,a7,a7,a7,a7,a7,new A.a2R(a8,a6),a7,a7,a7)],h),C.it),a7,a7,a7,a7,new V.ai(10,0,10,0),a7,a7)
+g=U.bm(!0,10)
+f=P.ac3(255,250,201,1)
+e=q*0.05
+f=M.b6(a7,M.b6(a7,T.hA(H.c([L.a8e(C.xq),T.m6(a7,a7,e),M.b6(a7,L.bi("PENTING! Mohon transfer tepat sampai 3 angka terakhir agar donasi terverifikasi otomatis",a7,a7,a7,a7,a7,a7),a7,a7,a7,a7,a7,a7,q-e-104)],h),C.bS),a7,a7,a7,a7,new V.ai(10,0,10,0),a7,a7),f,a7,a7,a7,new V.ai(10,0,10,0),new V.ai(0,10,0,10),a7)
+e=U.bm(!0,10)
+d=a6.Ia()
+c=U.bm(!0,10)
+b=L.bi("Pembayaran dilakukan ke rekening",a7,a7,a7,A.cx(a7,a7,a7,a7,a7,a7,a7,a7,a7,a7,a7,a7,a7,C.aN,a7,a7,!0,a7,a7,a7,a7,a7,a7),a7,a7)
+a=U.bm(!0,10)
+a0=L.bi("Yayasan Berkah Yatim Indonesia",a7,a7,a7,A.cx(a7,a7,a7,a7,a7,a7,a7,a7,a7,a7,a7,20,a7,C.c6,a7,a7,!0,a7,a7,a7,a7,a7,a7),a7,a7)
+a1=U.bm(!0,10)
+a2=P.ac3(225,232,253,1)
+a2=M.b6(a7,M.b6(a7,T.hA(H.c([U.lk($.ac9.h(0,a8.a.f),20,a7),M.b6(a7,L.bi(a6.d,a7,a7,a7,A.cx(a7,a7,a7,a7,a7,a7,a7,a7,a7,a7,a7,a7,a7,C.c6,a7,a7,!0,a7,a7,a7,a7,a7,a7),a7,a7),a7,a7,a7,a7,a7,a7,a7),R.ln(!1,!0,L.bi("SALIN",a7,a7,a7,A.cx(a7,a7,a7,a7,a7,a7,a7,a7,a7,a7,a7,15,a7,C.c6,a7,a7,!0,a7,a7,a7,a7,a7,a7),a7,a7),a7,!0,a7,a7,a7,a7,a7,a7,a7,a7,a7,new A.a2S(a6),a7,a7,a7)],h),C.it),a7,a7,a7,a7,new V.ai(10,0,10,0),a7,a7),a2,a7,a7,a7,new V.ai(10,0,10,0),new V.ai(0,20,0,20),a7)
+a8=U.bm(!0,10)
+a3=a6.Ia()
+a4=U.bm(!0,10)
+a5=b1.U(r).f.a.a*0.15
+a5=T.a82(E.Y6(T.jo(H.c([o,n,m,l,k,j,i,s,g,f,e,d,c,b,a,a0,a1,a2,a8,a3,a4,M.b6(a7,L.bi("\u0623\u064e\u062c\u064e\u0631\u064e\u0643\u064e  \u0627\u0644\u0644\u0651\u064e\u0647\u064f  \u0641\u0650\u064a\u0645\u0622  \u0623\u064e\u0639\u0652\u0637\u064e\u064a\u0652\u062a\u064e  \u0648\u064e\u0628\u064e\u0627\u0631\u064e\u0643\u064e\u0643\u064e  \u0641\u0650\u064a\u0645\u0622  \u0623\u064e\u0628\u0652\u0642\u064e\u064a\u0652\u062a\u064e  \u0648\u064e\u062c\u064e\u0639\u064e\u0644\u064e\u0647\u064f  \u0644\u064e\u0643  \u0637\u064e\u0647\u064f\u0648\u0631\u0627\u064b ",a7,a7,a7,A.cx(a7,a7,a7,a7,a7,a7,a7,a7,a7,a7,a7,25,a7,C.c6,a7,a7,!0,a7,a7,a7,a7,a7,a7),C.b6,a7),a7,a7,a7,a7,new V.ai(a5,0,a5,0),a7,a7),U.bm(!0,10),M.b6(a7,L.bi("Semoga Allah memberi pahala atas apa yang telah engkau berikan, menjadikannya penyuci bagimu dan melimpahkan berkah terhadap hartamu yang tersisa.",a7,a7,a7,A.cx(a7,a7,a7,a7,a7,a7,a7,a7,a7,a7,a7,20,a7,C.aN,a7,a7,!0,a7,a7,a7,a7,a7,a7),C.b6,a7),a7,a7,a7,a7,new V.ai(15,0,15,0),a7,a7),U.bm(!0,10)],h),C.bw,C.b0),C.t))
+a4=b1.U(r).f
+a3=b1.U(r).f
+a3=M.b6(a7,a7,a7,a7,new S.e6(C.j,a7,a7,K.kI(5),H.c([new O.f5(0,C.rg,new P.p(0,1),6)],t.ec),a7,C.ac),a4.a.b*0.1,a7,new V.ai(0,10,0,10),a3.a.a)
+a4=b1.U(r).f
+r=b1.U(r).f
+a8=K.aI(b1).b
+if(a6.e)s=M.b6(a7,U.abY(C.j),a7,a7,a7,35,a7,a7,35)
+else{s=a6.f?"Kembali":"Saya sudah transfer"
+s=L.bi(s,a7,a7,a7,A.cx(a7,a7,C.j,a7,a7,a7,a7,a7,a7,a7,a7,a7,a7,a7,a7,a7,!0,a7,a7,a7,a7,a7,a7),a7,a7)}return M.ae1(new P.I(4042455551),M.b6(a7,T.jo(H.c([a5,T.p8(C.aL,H.c([a3,T.DV(a7,M.b6(a7,B.lA(s,a8,a7,a7,new A.a2T(a6,b1)),a7,a7,a7,r.a.b*0.07,a7,a7,a4.a.a-20),a7,a7,a7,a7,10,a7)],h),C.f4)],h),C.bw,C.b0),C.j,a7,a7,a7,new V.ai(20,0,20,0),new V.ai(p,0,p,0),a7))},
 Ia:function(){var s=null
 return M.b6(s,s,new P.I(4042455551),s,s,20,s,s,this.c.U(t.w).f.a.a)}}
 A.a2U.prototype={
