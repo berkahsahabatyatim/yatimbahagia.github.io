@@ -1,17 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
-
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
-
-    Fore more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
-  -->
-  <base href="">
+  <base href="/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
@@ -79,13 +69,27 @@
 	<div class="loading">
     <div class="loader"></div>
   </div>
-  <!-- This script installs service_worker.js to provide PWA functionality to
-       application. For more information, see:
-       https://developers.google.com/web/fundamentals/primers/service-workers -->
+
+    <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-firestore.js"></script>
+    <script>
+<!--    hello hacker, this is my key, do anything you want with it (emot sad)-->
+      var firebaseConfig = {
+        apiKey: "AIzaSyC1vLrWnDqrpfkJmwBvDNoODoKQY9sEH0k",
+        authDomain: "cipcipp-150996.firebaseapp.com",
+        databaseURL: "https://cipcipp-150996.firebaseio.com",
+        projectId: "cipcipp-150996",
+        storageBucket: "cipcipp-150996.appspot.com",
+        messagingSenderId: "126723861127",
+        appId: "1:126723861127:web:08f143c5ab5556ae536622"
+      };
+      firebase.initializeApp(firebaseConfig);
+    </script>
+
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('flutter-first-frame', function () {
-        navigator.serviceWorker.register('flutter_service_worker.js?v=4135069555');
+        navigator.serviceWorker.register('flutter_service_worker.js?v=551784784');
       });
     }
   </script>
