@@ -35304,7 +35304,7 @@ a3=M.b5(a7,a7,a7,a7,new S.e7(C.j,a7,a7,K.kK(5),H.c([new O.f6(0,C.rh,new P.p(0,1)
 a4=b1.U(r).f
 r=b1.U(r).f
 a2=K.aI(b1).b
-if(a6.e)a8=M.b5(a7,U.ac4(C.j),a7,a7,a7,35,a7,a7,35)
+if(a6.e)a8=M.b5(a7,U.ac4(C.j),a7,a7,a7,30,a7,a7,30)
 else{a8=a6.f?"Kembali":"Saya sudah transfer"
 a8=L.b0(a8,a7,a7,a7,A.c9(a7,a7,C.j,a7,a7,a7,a7,a7,a7,a7,a7,a7,a7,a7,a7,a7,!0,a7,a7,a7,a7,a7,a7),a7,a7)}return M.ae6(new P.I(4042455551),M.b5(a7,T.jp(H.c([a5,T.p8(C.aN,H.c([a3,T.DW(a7,M.b5(a7,B.ii(a8,a2,a7,a7,new A.a2V(a6,b1)),a7,a7,a7,r.a.b*0.07,a7,a7,a4.a.a-20),a7,a7,a7,a7,10,a7)],h),C.f4)],h),C.bx,C.b0),C.j,a7,a7,a7,new V.ai(20,0,20,0),new V.ai(p,0,p,0),a7))},
 Ib:function(){var s=null
@@ -35432,7 +35432,7 @@ a9=M.b5(b3,b3,b3,b3,new S.e7(C.j,b3,b3,K.kK(5),H.c([new O.f6(0,C.rh,new P.p(0,1)
 b0=b7.U(b4).f
 b4=b7.U(b4).f
 a8=K.aI(b7).b
-r=b2.y?M.b5(b3,U.ac4(C.j),b3,b3,b3,35,b3,b3,35):L.b0("Donasi Sekarang",b3,b3,b3,A.c9(b3,b3,C.j,b3,b3,b3,b3,b3,b3,b3,b3,b3,b3,b3,b3,b3,!0,b3,b3,b3,b3,b3,b3),b3,b3)
+r=b2.y?M.b5(b3,U.ac4(C.j),b3,b3,b3,30,b3,b3,30):L.b0("Donasi Sekarang",b3,b3,b3,A.c9(b3,b3,C.j,b3,b3,b3,b3,b3,b3,b3,b3,b3,b3,b3,b3,b3,!0,b3,b3,b3,b3,b3,b3),b3,b3)
 return M.ae6(b3,M.b5(b3,T.jp(H.c([b1,T.p8(C.aN,H.c([a9,T.DW(b3,M.b5(b3,B.ii(r,a8,b3,b3,new O.a3A(b2,b7)),b3,b3,b3,b4.a.b*0.07,b3,b3,b0.a.a-20),b3,b3,b3,b3,10,b3)],i),C.f4)],i),C.bx,C.b0),b3,b3,b3,b3,b3,new V.ai(s,0,s,0),b3))},
 Lk:function(){var s,r,q,p,o,n=null,m=t.fQ,l=H.c([],m)
 for(s=$.aaf(),s=s.ga5(s),s=s.gK(s);s.q();){r=s.gw(s)
