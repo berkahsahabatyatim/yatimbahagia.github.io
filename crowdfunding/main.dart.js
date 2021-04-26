@@ -13186,14 +13186,12 @@ if(s==null)return new Y.di(C.n,r,C.R)
 return new Y.di(s,r,C.R)},
 Bd:function Bd(a,b){this.d=a
 this.a=b},
-aen:function(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7){var s,r,q
-if(b8==null)s=C.tI
-else s=b8
-if(b9==null)r=C.tJ
-else r=b9
-if(a1==null)q=a5===1?C.AU:C.tU
-else q=a1
-return new Z.mm(e,o,j,q,c6,c4,c1,c0,c2,c3,c5,!1,a8,!1,!0,s,r,!0,a5,a6,!1,!1,C.E1,b7,a2,!0,a4,a9,b0,b1,p,m,i,g,h,f,a0,b4,!0,b6,b2,d,b5,b,null)},
+aen:function(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6){var s,r
+if(b7==null)s=C.tI
+else s=b7
+if(b8==null)r=C.tJ
+else r=b8
+return new Z.mm(e,o,j,a0,c5,c3,c0,b9,c1,c2,c4,!1,a7,!1,!0,s,r,!0,a4,a5,!1,!1,C.E1,b6,a1,!0,a3,a8,a9,b0,p,m,i,g,h,f,q,b3,!0,b5,b1,d,b4,b,null)},
 L4:function L4(a,b){this.c=a
 this.a=b
 this.b=!0},
@@ -35420,7 +35418,7 @@ a3=L.b0(b2.d,b3,b3,b3,A.c9(b3,b3,b3,b3,b3,b3,b3,b3,b3,b3,b3,20,b3,C.am,b3,b3,!0,
 a4=U.aX(!0,10)
 a5=L.b0(b2.f,b3,b3,b3,b3,b3,b3)
 a6=U.aX(!0,5)
-a7=E.apG(b2.z,L.a8n(b3,b3,b3,b3,b3,b3,b3,!0,b3,b3,b3,b3,b3,b3,b3,b3,b3,b3,b3,!0,b3,b3,b3,b3,b3,"Masukkan jumlah donasi",b3,b3,b3,!1,b3,b3,b3,b3,b3,b3,b3,b3,b3,b3,b3,b3,b3,b3),C.AV,new O.a3w(b2))
+a7=E.apG(b2.z,L.a8n(b3,b3,b3,b3,b3,b3,b3,!0,b3,b3,b3,b3,b3,b3,b3,b3,b3,b3,b3,!0,b3,b3,b3,b3,b3,"Masukkan jumlah donasi",b3,b3,b3,!1,b3,b3,b3,b3,b3,b3,b3,b3,b3,b3,b3,b3,b3,b3),C.tU,new O.a3w(b2))
 a8=U.aX(!0,10)
 a9=b2.dx
 a9=L.b0("Minimal donasi Rp. "+T.UC("#,###","id_ID").td(a9),b3,b3,b3,A.c9(b3,b3,b3,b3,b3,b3,b3,b3,b3,b3,b3,15,b3,b3,b3,b3,!0,b3,b3,b3,b3,b3,b3),b3,b3)
@@ -35447,8 +35445,8 @@ l.push(E.Y8(T.eO(q,C.bi),C.r))
 l.push(U.aX(!0,10))}return T.jp(l,C.hS,C.b0)},
 a0o:function(a){var s=null
 return R.lp(!1,!0,new V.zZ(3,T.m7(T.jp(H.c([U.jB(a.c,100,100),U.aX(!0,5),M.b5(s,L.b0(a.a,s,s,s,s,C.b6,s),s,s,s,s,s,new V.ai(3,0,3,0),s)],t.fQ),C.bx,C.b0),155,120),s),s,!0,s,s,s,s,s,s,s,s,s,new O.a3C(this,a),s,s,s)},
-IF:function(a,b,c){var s=null
-return Z.aen(!0,s,!1,s,b,s,s,s,2,L.a8n(s,new F.fs(4,C.uF,C.pN),new V.ai(10,0,0,0),s,s,s,s,!0,s,s,s,s,s,C.A,!0,s,s,s,s,!0,s,s,s,s,A.c9(s,s,C.aE.h(0,800),s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s),a,s,s,s,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s),!0,!0,s,!1,s,s,s,s,s,!0,s,1,s,!1,"\u2022",new O.a3E(c,b),s,s,s,!1,C.qk,s,s,s,s,s,s,s,C.ah,s,C.tQ,s,s,s)},
+IF:function(a,b,c){var s=null,r=c?C.tU:C.AU
+return Z.aen(!0,s,!1,s,b,s,s,s,2,L.a8n(s,new F.fs(4,C.uF,C.pN),new V.ai(10,0,0,0),s,s,s,s,!0,s,s,s,s,s,C.A,!0,s,s,s,s,!0,s,s,s,s,A.c9(s,s,C.aE.h(0,800),s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s),a,s,s,s,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s),!0,!0,s,!1,s,s,s,r,s,!0,s,1,s,!1,"\u2022",new O.a3E(c,b),s,s,s,!1,C.qk,s,s,s,s,s,s,s,C.ah,s,C.tQ,s,s,s)},
 yQ:function(a,b){return this.IF(a,b,!1)}}
 O.a3D.prototype={
 $0:function(){var s=this.a
@@ -52893,7 +52891,7 @@ kj:function(){var s=this.z
 if(s!=null)s.tm()},
 D5:function(a){var s,r,q,p,o,n=this,m=n.a,l=m.y2,k=m.y,j=m.db
 m=m.dx
-s=l.k(0,C.tU)?C.lD:C.j4
+s=l.k(0,C.AV)?C.lD:C.j4
 r=n.a
 q=r.id
 r=r.O
@@ -63264,8 +63262,8 @@ C.oS=new N.dK("TextInputAction.previous")
 C.oT=new N.dK("TextInputAction.continueAction")
 C.oU=new N.dK("TextInputAction.join")
 C.AU=new N.pn(0,null,null)
-C.tU=new N.pn(1,null,null)
-C.AV=new N.pn(2,!1,!1)
+C.AV=new N.pn(1,null,null)
+C.tU=new N.pn(2,!1,!1)
 C.AW=new Q.pq("TextOverflow.fade")
 C.hz=new Q.pq("TextOverflow.ellipsis")
 C.tV=new Q.pq("TextOverflow.visible")
@@ -63949,14 +63947,14 @@ q($,"ava","ahq",function(){return O.db("Wakaf Masjid","assets/img/wakaf/masjid.j
 q($,"avb","ahr",function(){return O.db("Wakaf Tanah","assets/img/wakaf/tanah.jpg","Wakaf Tanah untuk Masjid & Pondok Tahfidz Yatim & Dhuafa",1e5)})
 q($,"avc","ahs",function(){return O.db("Wakaf Pemberdayaan UMKM","assets/img/wakaf/umkm.jpg","Wakaf modal usaha mikro untuk pemberdayaan UMKM",null)})
 q($,"avd","aht",function(){return O.db("Zakat & Fidyah","assets/img/zakat/zakat.jpg","Yayasan BYI menerima dan mengelola Zakat-Fidyah",null)})
-q($,"av6","aah",function(){return O.db("Wakaf Pembebasan Lahan","assets/img/pembinaan/lahan.jpeg","Tabungan akhirat yang Allah SWT janjikan pahalanya akan terus mengalir meskipun telah meninggal. BerWakaf Rp100.000; untuk Pembebasan Lahan seluas 1 hektar.",1e5)})
+q($,"av6","aah",function(){return O.db("Wakaf Tanah","assets/img/pembinaan/lahan.jpeg","Tabungan akhirat yang Allah SWT janjikan pahalanya akan terus mengalir meskipun telah meninggal. BerWakaf Rp100.000; untuk Pembebasan Lahan seluas 1 hektar.",1e5)})
 q($,"av8","aaj",function(){return O.db("Zakat Fitrah","assets/img/pembinaan/zakatFitrah.jpeg","Rosulloh SAW mewajibkan zakat fitrah sebagai penyuci bagi orang yang berpuasa dari perbuatan yang sia sia dan kata kata yang kotor serta sebagai pemberian makanan untuk orang orang miskin ( HR Abu Dawud)\n\nBesaran zakat fitrah adalah 4 liter beras  atau dikonversikan kepada nilai uang sesuai beras yang dikonsumsi",26e3)})
 q($,"av7","aai",function(){return O.db("Zakat Fidyah","assets/img/pembinaan/fidyah.jpeg","Yayasan Berkah Yatim Indonesia menerima & menyalurkan Zakat Fidyah",null)})
 q($,"av9","aak",function(){return O.db("Zakat Profesi","assets/img/pembinaan/profesi.jpeg","Zakat penghasilan ini dikeluarkan setiap kali memperoleh penghasilan, nishobnya 85gr emas/tahun, jika harga emas murni saat ini Rp 800.000 maka nishob zakat per bulan 5,7 juta. Adapun besaran zakatnya adalah 2.5% dari penghasilan",null)})
 q($,"av_","aae",function(){return O.db("Gebyar Lomba Qur'an","assets/img/pembinaan/lomba.jpeg","Nuzulul Quran merupakan pengingat untuk kembali ke pedoman yakni al-Quran. Orang yang membacanya akan ditinggikan derajatnya bersama orang-orang yang mulia",3e6)})
 q($,"av2","ahp",function(){return O.db("Bergai Ta'jil Hari Jum'at","assets/img/infaq/jumat.jpg","Kegiatan berbagi takjil dihari Jumat berkah dengan bersedekah Rp.10.000 untuk 250 anak Yatim\nSedekah bagian identitas orang yang beriman dan melatih seseorang untuk melihat keadaan sekitar, bahwa hidup didunia harus saling mengasihi dan membantu satu sama lain.",null)})
 q($,"av3","a7o",function(){return O.db("Buka Bersama Yatim & Dhu'afa","assets/img/pembinaan/yatimTajil.jpeg","Pada saat bulan Ramadhan banyak orang yang berlomba-lomba dalam kebaikan. Salah satu kegiatan yang umum adalah dengan mengadakan buka puasa bersama 300 anak yatim @Rp 10.000;/paket. Meskipun tampak sederhana, nyatanya kegiatan ini memiliki banyak manfaat. ",1e4)})
-q($,"av5","a7p",function(){return O.db("Santunan untuk Yatim saat Lebaran","assets/img/pembinaan/yatimTHR.jpeg","Santunan Anak  Yatim di Momen Lebaran Yatim merupakan memberikan sedekah kepada anak yatim untuk berbagi kebahagiaan untuk 100 orang anak yatim @Rp 350.000/paket",35e4)})
+q($,"av5","a7p",function(){return O.db("Santunan Yatim saat Lebaran","assets/img/pembinaan/yatimTHR.jpeg","Santunan Anak  Yatim di Momen Lebaran Yatim merupakan memberikan sedekah kepada anak yatim untuk berbagi kebahagiaan untuk 100 orang anak yatim @Rp 350.000/paket",35e4)})
 q($,"av4","aag",function(){return O.db("Paket Sembako Ramadhan","assets/img/pembinaan/sembako.jpeg","Ditengah pandemi banyak orang yang harus berjuang untuk terus hidup. Sebagai wujud kepedulian kepada warga dhuafa. Yayasan Berkah Yatim Indonesian mempunyai program bakti sosial kepada 250 KK @Rp200.000/paket",2e5)})
 q($,"av1","aho",function(){return O.db("Bingkisan untuk Guru Ngaji","assets/img/infaq/duat.jpg","Program Bingkisan Lebaran Guru Ngaji merupakan sedekah kepada pejuang agama Allah SWT. Untuk 50 guru ngaji @Rp200.000/paket",2e5)})
 q($,"auV","aad",function(){return P.ao(["/zakat",$.aht(),"/yatim",$.ahn(),"/jumat",$.ahm(),"/bantuan-bencana",$.ahk(),"/duat",$.ahl(),"/umkm",$.ahs(),"/masjid",$.ahq(),"/tanah",$.ahr(),"/zakat-fidyah",$.aai(),"/zakat-fitrah",$.aaj(),"/lahan",$.aah(),"/lomba",$.aae(),"/zakat-profesi",$.aak(),"/sembako-dhuafa",$.aag(),"/tajil",$.a7o(),"/thr-yatim",$.a7p()],t.X,H.R("lW*"))})
