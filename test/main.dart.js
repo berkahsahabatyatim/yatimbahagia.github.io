@@ -36088,7 +36088,7 @@ Ik:function(a,b){var s,r=null,q=a.a
 if(q==="Buka Bersama Yatim & Dhu'afa")q="Ta'jil untuk Yatim"
 if(q==="Santunan Yatim saat Lebaran")q="Bingkisan untuk Yatim"
 s=b/2-20
-return M.b_(r,R.k_(!1,!0,V.aeg(T.ku(T.ho(H.c([U.fw(a.c,170,s),U.aw(!0,5),M.b_(r,L.aI(q,r,r,r,A.bI(r,r,r,r,r,r,r,r,r,r,r,17,r,C.Z,r,r,!0,r,r,r,r,r,r),C.aZ,r),r,r,r,r,new V.al(0,5,0,0),new V.al(3,0,3,0),r)],t.Y),C.bd,C.aW),220,200),3),r,!0,r,r,r,r,r,r,r,r,r,new D.a5n(this,a),r,r,r),r,r,r,r,new V.al(10,10,10,10),r,s)}}
+return M.b_(r,R.k_(!1,!0,V.aeg(T.ku(T.ho(H.c([U.fw(a.c,170,s),U.aw(!0,5),M.b_(r,L.aI(q,r,r,r,A.bI(r,r,r,r,r,r,r,r,r,r,r,17,r,C.Z,r,r,!0,r,r,r,r,r,r),C.aZ,r),r,r,r,r,new V.al(0,5,0,0),new V.al(3,0,3,0),r)],t.Y),C.bd,C.aW),230,200),3),r,!0,r,r,r,r,r,r,r,r,r,new D.a5n(this,a),r,r,r),r,r,r,r,new V.al(10,10,10,10),r,s)}}
 D.a5k.prototype={
 $0:function(){T.qY("https://goo.gl/maps/ixa21Ly7RLyMoZxn6")},
 $S:2}
