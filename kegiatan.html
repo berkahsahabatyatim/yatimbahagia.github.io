@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<meta property="og:url"                content="berkahsahabatyatim.com" />
+		<meta property="og:type"               content="website" />
+		<meta property="og:title"              content="Yayasan Berkah Yatim Indonesia" />
+		<meta property="og:description"        content="Profil Yayasan" />
+		<meta property="og:image"              content="https://raw.githubusercontent.com/nashihu/production_stuff/master/bsy_images/photo_2020-01-24%2018.19.42.jpeg" />
+        <meta name="author" content="Yayasan Berkah Yatim Indonesia" />
+        <title>Profil Yayasan BYI</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/img/logobyi.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+        <!-- Third party plugin CSS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/style-album.css" rel="stylesheet" />
+        <link href="program/style-program.css" rel="stylesheet" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen"> -->
+		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script> -->
+
+        <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script> -->
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+        <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+        <!-- TODO ini yg vue -->
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+            <div class="container">
+                <!-- <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="" /> -->
+                <!-- <a class="navbar-brand js-scroll-trigger" href="#page-top">Home</a> -->
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                    <img class="navbar-brand js-scroll-trigger" src="assets/img/logobyi.png" width="50" height="53"/>
+                </a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto my-2 my-lg-0">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html">Home</a></li>
+                        <li class="dropdown mr-3">
+                            <div class="nav-item">
+                                <a class="nav-link js-scroll-trigger" >Tentang Kami</a>
+                                <div class="dropdown-content bg-dark">
+                                    <a href="about/about.html#profil">Profil Yayasan BYI</a>
+                                    <a href="about/visimisi.html#profil">Visi Misi</a>
+                                    <a href="about/pengurus.html#legal">Kepengurusan</a>
+                                    <a href="about/legalitas.html#legal">Legalitas</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="album.html#album">Dokumentasi</a></li>
+                        <li class="dropdown mr-3">
+                            <div class="nav-item">
+                                <a class="nav-link js-scroll-trigger" >Program Kegiatan</a>
+                                <div class="dropdown-content bg-dark">
+                                    <a href="program/pondok.html#services">Pondok Tahfidz Yatim & Dhuafa</a>
+                                    <a href="program/beasiswa.html">Beasiswa Pendidikan Formal untuk Yatim & Dhuafa</a>
+                                    <a href="program/lahan.html">Pembebasan Lahan untuk Pondok Tahfidz Yatim & Dhuafa</a>
+                                    <a href="program/masjid.html">Pembangunan Masjid dan Pondok Tahfidz Yatim & Dhuafa</a>
+                                    <a href="program/ekonomi.html">Pemberdayaan Ekonomi Pondok Tahfidz Yatim & Dhuafa</a>
+                                    <a href="program/kafalah.html">Kafalah Du'at</a>
+                                    <a href="program/bantuan-bencana.html">Bantuan Bencana Alam</a>
+                                    <a href="program/santripreneur.html">Santripreneur Berkah Yatim</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="donasi.html#donate">Donasi</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="kegiatan.html#activity">Kegiatan</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Hubungi Kami</a></li>
+                        <li class="dropdown">
+                            <div class="nav-item">
+                                <a class="nav-link js-scroll-trigger" >Artikel</a>
+                                <div class="dropdown-content bg-dark">
+                                    <a href="artikel/manfaat-sedekah.html#main-content">Manfaat Sedekah</a>
+                                    <a href="artikel/wakaf.html#main-content">Keutamaan, Rukun & Syarat Wakaf</a>
+                                    <a href="artikel/zakat.html#main-content">Syarat Wajib Zakat & Cara Menunaikannya</a>
+                                    <a href="artikel/penerima-zakat.html#main-content">8 Golongan yang Berhak Menerima Zakat</a>
+                                    <a href="artikel/qurban.html#main-content">13 Tips Memilih Hewan untuk Kurban</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="about">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center justify-content-center text-center">
+                    <div class="col-lg-10 align-self-end">
+                        <h1 class="text-uppercase text-white font-weight-bold">Yayasan Berkah Yatim Indonesia</h1>
+                        <hr class="divider my-4" />
+                    </div>
+                    <div class="col-lg-8 align-self-baseline">
+                        <p class="text-white-75 font-weight-light mb-5">Membangun Generasi Qurani, Berkarakter Dan Visioner Yang Berpegang Teguh Pada Al Qur'an & Sunnah</p>
+                        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#activity">Lihat kegiatan</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="page-section bg-light" id="activity">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h3 class="mb-3">Kegiatan Yayasan BYI</h3>
+                        <br/>
+                        <img src="assets/img/kegiatan.jpeg" class="img-fluid col-lg-10 mb-3 " alt="Responsive image">
+                        <br/>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer id="donate" class="wrapper site-footer mb-3 bg-light text-dark" role="contentinfo">
+        <hr class="divider my-0 mb-5" />
+         <section class="wrapper block-section footer-widget">
+            <div class="container overhidden">
+               <div class="contact-inner">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <div class="row">
+                           <div class="contact-list col-md-5 mb-3">
+                              <aside id="custom_html-3" class="widget_text widget widget_custom_html">
+                                 <h1 class="widget-title">Yayasan BYI</h1>
+                                 <br/>
+                                 <div class="textwidget custom-html-widget">Berkah Yatim Indonesia adalah Yayasan Amal Non Profit Terdaftar di Kemenkumham RI yang fokus kepada pengelolaan dana sosial untuk Pondok tahfidz Al Quran Yatim dan Dhuafa di Indonesia.
+                                    <br /><br />
+                                    Sekretariat Pusat :
+                                    <br />
+                                    Jalan Limbangansari Kp. Tipar Kaler RT 02 RW 05 Desa Limbangansari Kec/Kab Cianjur Jawa Barat
+                                    <br /><br />
+                                     <div class="mb-1"><a  style="color: #42a5f5;" href="https://wa.me/6281313350791"><img  class="mr-1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/500px-WhatsApp.svg.png" width="25" height="25"> 0813-1335-0791</a></div>
+                                     <a style="color: #42a5f5;" class="d-block" href="mailto:yayasanberkahyatimindonesia@gmail.com"><img  class="mr-1" src="assets/img/gmail.png" height="20"> yayasanberkahyatimindonesia@gmail.com</a>
+                                 </div>
+                              </aside>
+                           </div>
+                           <div class="contact-list col-md-3  mb-3">
+                              <aside id="custom_html-4" class="widget_text widget widget_custom_html">
+                                 <h1 class="widget-title">Donasi</h1>
+                                 <br/>
+                                 <div class="textwidget custom-html-widget">Salurkan bantuan Anda melalui Rekening yang telah kami sediakan :
+                                    <br /><br />
+                                    Rekening Syari’ah Mandiri: <br /><span class="js-copy-bsm-btn" style="color: #42a5f5; cursor: pointer;">714 8434 306</span> a.n <i>Yayasan Berkah Yatim Indonesia</i>
+                                    <br />
+                                    Telp : 0813-1335-0791
+                                    <br />
+                                    WA : 0813-1335-0791
+                                 </div>
+                              </aside>
+                           </div>
+                           <img src="assets/img/logobyi-white.jpeg" class="img-fluid col-lg-4 mb-3 " alt="Responsive image">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <br/>
+         <!-- footer site info -->
+         <!-- #colophon -->
+      </footer>
+        <!-- Bootstrap core JS-->
+        <!-- <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script> -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <!-- Core theme JS-->
+        <!-- <script src="js/scripts.js"></script> -->
+        <script src="js/script-album.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
