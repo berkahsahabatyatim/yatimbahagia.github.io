@@ -36836,7 +36836,7 @@ A.a6J.prototype={
 $0:function(){var s=0,r=P.a4(t.P),q=this,p
 var $async$$0=P.a0(function(a,b){if(a===1)return P.a1(b,r)
 while(true)switch(s){case 0:p=q.a.a
-T.ri("https://wa.me/6281313350791?text="+H.c(P.zz(C.eg,"Bismillah\n\nKepada Admin Yayasan BYI\nSaya sudah melakukan transfer ke "+p.f+"\nuntuk donasi "+p.r+"\n\nTerlampir bukti transfer nya\nDemikian dan terima kasih\n",C.P,!1)))
+T.ri("https://wa.me/6281912002001?text="+H.c(P.zz(C.eg,"Bismillah\n\nKepada Admin Yayasan BYI\nSaya sudah melakukan transfer ke "+p.f+"\nuntuk donasi "+p.r+"\n\nTerlampir bukti transfer nya\nDemikian dan terima kasih\n",C.P,!1)))
 return P.a2(null,r)}})
 return P.a3($async$$0,r)},
 $S:134}

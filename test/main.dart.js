@@ -36173,7 +36173,7 @@ A.a4z.prototype={
 $0:function(){var s=0,r=P.a3(t.P),q=this,p
 var $async$$0=P.a_(function(a,b){if(a===1)return P.a0(b,r)
 while(true)switch(s){case 0:p=q.a.a
-T.qY("https://wa.me/6281313350791?text="+H.b(P.z4(C.jZ,"Bismillah\n\nKepada Admin Yayasan BYI\nSaya sudah melakukan transfer ke "+p.f+"\nuntuk donasi "+p.r+"\n\nTerlampir bukti transfer nya\nDemikian dan terima kasih\n",C.M,!1)))
+T.qY("https://wa.me/6281912002001?text="+H.b(P.z4(C.jZ,"Bismillah\n\nKepada Admin Yayasan BYI\nSaya sudah melakukan transfer ke "+p.f+"\nuntuk donasi "+p.r+"\n\nTerlampir bukti transfer nya\nDemikian dan terima kasih\n",C.M,!1)))
 return P.a1(null,r)}})
 return P.a2($async$$0,r)},
 $S:97}
