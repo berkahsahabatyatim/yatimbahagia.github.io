@@ -3,17 +3,17 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "version.json": "b5ce7bd9bdfe15c774dc523ebc04a9ec",
-"index.html": "62daa44b62ce758353550899aaf0ff0f",
-"/": "62daa44b62ce758353550899aaf0ff0f",
-"main.dart.js": "7d651d6a68407653ef7b4202f58dc69c",
+  "version.json": "e1c98f8f903e8d79f461d2c5a40bf89e",
+"index.html": "1fcc5380f833ad2fb794088ec7272d5a",
+"/": "1fcc5380f833ad2fb794088ec7272d5a",
+"main.dart.js": "380a5889edb7c5c3e58a1a8c308ce21a",
 "favicon.png": "22f347997df00585ac2c835a0fa3afa4",
 "icons/Icon-192.png": "22f347997df00585ac2c835a0fa3afa4",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "manifest.json": "5f4a82460294a8bb0afa2b576e264282",
-"assets/AssetManifest.json": "41a54fb258a7f9512ec8a1c0aa556dad",
-"assets/NOTICES": "c23cdce366895bf9b7ed6a061e3baf7f",
-"assets/FontManifest.json": "5a32d4310a6f5d9a6b651e75ba0d7372",
+"assets/AssetManifest.json": "38d1fda02e92bfc9d90fa8a0460bd22e",
+"assets/NOTICES": "ee92dfd3842a9351e6b815227bf7b3c6",
+"assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "dffd9504fcb1894620fa41c700172994",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "4b6a9b7c20913279a3ad3dd9c96e155b",
@@ -22,7 +22,7 @@ const RESOURCES = {
 "assets/packages/flutter_widget_from_html_core/test/images/logo.png": "57838d52c318faff743130c3fcfae0c6",
 "assets/packages/progress_dialog/assets/double_ring_loading_io.gif": "e5b006904226dc824fdb6b8027f7d930",
 "assets/packages/wakelock_web/assets/no_sleep.js": "7748a45cd593f33280669b29c2c8919a",
-"assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
+"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
 "assets/assets/img/favicon.ico": "556f31acd686989b1afcf382c05846aa",
 "assets/assets/img/wakaf/umkm.jpg": "ad6bf37cbb43b1a0a1e1ae34e90a9e2b",
 "assets/assets/img/wakaf/masjid.jpg": "0cb17730977b4b94fecfe5c7c0fc4782",
@@ -31,6 +31,8 @@ const RESOURCES = {
 "assets/assets/img/logobyi-white.jpeg": "22f347997df00585ac2c835a0fa3afa4",
 "assets/assets/img/infaq/duat.jpg": "4a65c04559c38a09128949f1600fa064",
 "assets/assets/img/infaq/jumat.jpg": "5ab0d0053cac7b20bbbf43f94e932aec",
+"assets/assets/img/infaq/qurban_beli.jpg": "49d83412bf31fcd436523d27ff6e77d8",
+"assets/assets/img/infaq/qurban.jpg": "d96d817eb5ae31152c22c217ce857cd5",
 "assets/assets/img/infaq/bencana.jpg": "9aa24c0bb075cabab0f11aa38927c69f",
 "assets/assets/img/infaq/yatim.jpg": "239bf459da4a3d3de5d36b3c4b52fdab",
 "assets/assets/img/bank/BNI.webp": "2c048b0f25a76e2dfad413cf9ff1a325",
@@ -65,7 +67,12 @@ const RESOURCES = {
 "assets/assets/img/logobyi.ico": "972470c4df692f68ab24088e7cb20593",
 "assets/assets/img/zakat/zakat-emas.webp": "3998c6c08e7ea801bc0cf50ead1530b4",
 "assets/assets/img/zakat/zakat-penghasilan.webp": "10a90e130136cf0468a5b6fc75819918",
-"assets/assets/img/zakat/zakat.jpg": "67a1527194cc776f78cf4912eda4cbc8"
+"assets/assets/img/zakat/zakat.jpg": "67a1527194cc776f78cf4912eda4cbc8",
+"app.js": "65b5f0c0758134e359c55fd11ff23183",
+"canvaskit/canvaskit.js": "43fa9e17039a625450b6aba93baf521e",
+"canvaskit/profiling/canvaskit.js": "f3bfccc993a1e0bfdd3440af60d99df4",
+"canvaskit/profiling/canvaskit.wasm": "a9610cf39260f60fbe7524a785c66101",
+"canvaskit/canvaskit.wasm": "04ed3c745ff1dee16504be01f9623498"
 };
 
 // The application shell files that are downloaded before a service worker can
@@ -83,7 +90,7 @@ self.addEventListener("install", (event) => {
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
       return cache.addAll(
-        CORE.map((value) => new Request(value + '?revision=' + RESOURCES[value], {'cache': 'reload'})));
+        CORE.map((value) => new Request(value, {'cache': 'reload'})));
     })
   );
 });
