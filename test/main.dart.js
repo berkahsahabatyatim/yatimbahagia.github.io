@@ -37390,14 +37390,14 @@ A.jO("Silakan ceklis pernyataan sumber dana terlebih dahulu",h)
 s=1
 break}h.ap(new A.a84(h))
 h.v9(f.a.a)
-s=3
-return A.a7(A.UM(A.ct(0,0,1),t.z),$async$$0)
-case 3:l=$.eF()
+l=$.eF()
 k=g.a.a
 k.toString
 k=A.fN(k,"Rp. ","")
 l.is("purchase",[A.fN(k,".","")])
-l=h.fy
+s=3
+return A.a7(A.UM(A.ct(0,0,1),t.z),$async$$0)
+case 3:l=h.fy
 f=f.a.a
 m=m.a.a
 k=h.cy.a.a
