@@ -15,5 +15,4 @@ window.purchase = (amount) => {
         'value': amount,
         'currency': "IDR"
     });
-    console.log("done tracking");
 }

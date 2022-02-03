@@ -4,9 +4,9 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "e1c98f8f903e8d79f461d2c5a40bf89e",
-"index.html": "1fcc5380f833ad2fb794088ec7272d5a",
-"/": "1fcc5380f833ad2fb794088ec7272d5a",
-"main.dart.js": "380a5889edb7c5c3e58a1a8c308ce21a",
+"index.html": "6575043d0a9c7b524512355510cb90ca",
+"/": "6575043d0a9c7b524512355510cb90ca",
+"main.dart.js": "2af73d008daf3b9f95294adf05425a2c",
 "favicon.png": "22f347997df00585ac2c835a0fa3afa4",
 "icons/Icon-192.png": "22f347997df00585ac2c835a0fa3afa4",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
@@ -68,7 +68,7 @@ const RESOURCES = {
 "assets/assets/img/zakat/zakat-emas.webp": "3998c6c08e7ea801bc0cf50ead1530b4",
 "assets/assets/img/zakat/zakat-penghasilan.webp": "10a90e130136cf0468a5b6fc75819918",
 "assets/assets/img/zakat/zakat.jpg": "67a1527194cc776f78cf4912eda4cbc8",
-"app.js": "65b5f0c0758134e359c55fd11ff23183",
+"app.js": "177e741e3b7e1b3193142f116f1716c6",
 "canvaskit/canvaskit.js": "43fa9e17039a625450b6aba93baf521e",
 "canvaskit/profiling/canvaskit.js": "f3bfccc993a1e0bfdd3440af60d99df4",
 "canvaskit/profiling/canvaskit.wasm": "a9610cf39260f60fbe7524a785c66101",
