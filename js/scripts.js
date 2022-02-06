@@ -1,3 +1,11 @@
+new Vue({
+  el: '#app',
+    data() {
+      return {
+          oke: "sip"
+      }
+    },
+});
 /*!
     * Start Bootstrap - Creative v6.0.4 (https://startbootstrap.com/theme/creative)
     * Copyright 2013-2020 Start Bootstrap

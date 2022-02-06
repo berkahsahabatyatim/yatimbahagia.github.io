@@ -1,200 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-		<meta property="og:url"                content="yatimbahagia.github.io/" />
-		<meta property="og:type"               content="article" />
-		<meta property="og:title"              content="Yayasan Berkah Yatim Indonesia" />
-		<meta property="og:description"        content="Artikel Zakat" />
-		<meta property="og:image"              content="https://raw.githubusercontent.com/nashihu/production_stuff/master/bsy_images/photo_2020-01-24%2018.19.42.jpeg" />
-        <meta name="author" content="Yayasan Berkah Yatim Indonesia" />
-        <title>Penerima Zakat</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="../assets/img/logobyi.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
-        <!-- Third party plugin CSS-->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="../css/styles.css" rel="stylesheet" />
-        <link href="../css/style-album.css" rel="stylesheet" />
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen"> -->
-		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script> -->
 
-        <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script> -->
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta property="og:url" content="yatimbahagia.github.io/" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Yayasan Berkah Yatim Indonesia" />
+    <meta property="og:description" content="Artikel Zakat" />
+    <meta property="og:image"
+        content="https://raw.githubusercontent.com/nashihu/production_stuff/master/bsy_images/photo_2020-01-24%2018.19.42.jpeg" />
+    <meta name="author" content="Yayasan Berkah Yatim Indonesia" />
+    <title>Penerima Zakat</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="../assets/img/logobyi.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic"
+        rel="stylesheet" type="text/css" />
+    <!-- Third party plugin CSS-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
+        rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="../css/styles.css" rel="stylesheet" />
+    <link href="../css/style-album.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen"> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script> -->
 
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-        <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
-        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
-            <div class="container">
-                <!-- <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="" /> -->
-                <!-- <a class="navbar-brand js-scroll-trigger" href="#page-top">Home</a> -->
-                <a class="navbar-brand js-scroll-trigger" href="../index.html">
-                    <img class="navbar-brand js-scroll-trigger" src="../assets/img/logobyi.png" width="50" height="53"/>
-                </a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto my-2 my-lg-0">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="../index.html">Home</a></li>
-                        <li class="dropdown mr-3">
-                            <div class="nav-item">
-                                <a class="nav-link js-scroll-trigger" >Tentang Kami</a>
-                                <div class="dropdown-content bg-dark">
-                                    <a href="../about/about.html#profil">Profil Yayasan BYI</a>
-                                    <a href="../about/visimisi.html#profil">Visi Misi</a>
-                                    <a href="../about/pengurus.html#legal">Kepengurusan</a>
-                                    <a href="../about/legalitas.html#legal">Legalitas</a>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="../album.html#album">Dokumentasi</a></li>
-                        <li class="dropdown mr-3">
-                            <div class="nav-item">
-                                <a class="nav-link js-scroll-trigger" >Program Kegiatan</a>
-                                <div class="dropdown-content bg-dark">
-                                    <a href="../program/pondok.html#services">Pondok Tahfidz Yatim & Dhuafa</a>
-                                    <a href="../program/beasiswa.html">Beasiswa Pendidikan Formal untuk Yatim & Dhuafa</a>
-                                    <a href="../program/lahan.html">Pembebasan Lahan untuk Pondok Tahfidz Yatim & Dhuafa</a>
-                                    <a href="../program/masjid.html">Pembangunan Masjid dan Pondok Tahfidz Yatim & Dhuafa</a>
-                                    <a href="../program/ekonomi.html">Pemberdayaan Ekonomi Pondok Tahfidz Yatim & Dhuafa</a>
-                                    <a href="../program/kafalah.html">Kafalah Du'at</a>
-                                    <a href="../program/bantuan-bencana.html">Bantuan Bencana Alam</a>
-                                    <a href="../program/santripreneur.html">Santripreneur Berkah Yatim</a>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="../donasi.html#donate">Donasi</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="../index.html#contact">Hubungi Kami</a></li>
-                        <li class="dropdown">
-                            <div class="nav-item">
-                                <a class="nav-link js-scroll-trigger" >Artikel</a>
-                                <div class="dropdown-content bg-dark">
-                                    <a href="../artikel/manfaat-sedekah.html#main-content">Manfaat Sedekah</a>
-                                    <a href="../artikel/wakaf.html#main-content">Keutamaan, Rukun & Syarat Wakaf</a>
-                                    <a href="../artikel/zakat.html#main-content">Syarat Wajib Zakat & Cara Menunaikannya</a>
-                                    <a href="../artikel/penerima-zakat.html#main-content">8 Golongan yang Berhak Menerima Zakat</a>
-                                    <a href="../artikel/qurban.html#main-content">13 Tips Memilih Hewan untuk Kurban</a>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script> -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body id="page-top">
+    <!-- Masthead-->
+    <header class="masthead">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center justify-content-center text-center">
+                <div class="col-lg-10 align-self-end">
+                    <h1 class="text-uppercase text-white font-weight-bold">Yayasan Berkah Yatim Indonesia</h1>
+                    <hr class="divider my-4" />
+                </div>
+                <div class="col-lg-8 align-self-baseline">
+                    <p class="text-white-75 font-weight-light mb-5">Membangun Generasi Qurani, Berkarakter Dan Visioner
+                        Yang Berpegang Teguh Pada Al Qur'an & Sunnah</p>
                 </div>
             </div>
-        </nav>
-        <!-- Masthead-->
-        <header class="masthead">
-            <div class="container h-100">
-                <div class="row h-100 align-items-center justify-content-center text-center">
-                    <div class="col-lg-10 align-self-end">
-                        <h1 class="text-uppercase text-white font-weight-bold">Yayasan Berkah Yatim Indonesia</h1>
-                        <hr class="divider my-4" />
-                    </div>
-                    <div class="col-lg-8 align-self-baseline">
-                        <p class="text-white-75 font-weight-light mb-5">Membangun Generasi Qurani, Berkarakter Dan Visioner Yang Berpegang Teguh Pada Al Qur'an & Sunnah</p>
-                    </div>
-                </div>
+        </div>
+    </header>
+
+    <div id="main-content" class="bg-light">
+        <div class="site-content mx-auto pt-5 col-lg-8 col-md-8 col-xs-8 col-10 text-justify text-dark">
+            <div class="entry-content">
+                <div class="image-full"></div>
+
+                <p class="mb-4">Perintah membayar zakat diwajibkan kepada setiap umat Islam yang mampu memenuhi
+                    kebutuhan hidupnya sehari-hari secara layak. Bagi muslim yang tidak mampu mencukupi biaya hidup,
+                    mereka tidak wajib membayar zakat, sebaliknya, mereka malah harus menerima zakat.</p>
+
+
+
+                <p>Siapa saja orang-orang yang berhak menerima zakat? Berikut ini 8 golongan orang yang berhak menerima
+                    zakat:</p>
+
+
+
+                <p><strong><em>1 &amp; 2. Fakir dan Miskin<br></em></strong>Kelompok fakir dan miskin merupakan warga
+                    muslim yang harus diutamakan dalam penerimaan zakat. Penyaluran dana zakat kepada fakir miskin
+                    macamnya ada dua, yaitu untuk tujuan pemenuhan kebutuhan hidup sehari-hari maupun untuk memberikan
+                    kemampuan berwirausaha.</p>
+
+
+
+                <p></p>
+
+
+
+                <p><strong><em>3. Riqab</em></strong><br>Di zaman Rasullullah SAW, seorang budak telah menjadi makanan
+                    sehari-hari untuk diperlakukan secara tidak manusiawi. Oleh karena itu, riqab atau secara bahasa
+                    berarti memerdekan budak menjadi salah satu sasaran penerima zakat yang berhak menurut Al Quran.</p>
+
+
+
+                <p></p>
+
+
+
+                <p><strong><em>4. Gharim atau Gharimin</em></strong><br>Secara bahasa, Gharim atau Gharimin diartikan
+                    sebagai orang yang terlilit hutang. Salah satu golongan penerima zakat ini dikategorikan sebagai
+                    penerima zakat yang wajib kita berikan yang terbagi menjadi 2 (dua) jenis, yaitu:</p>
+
+
+
+                <p>a. <em>Ghârim limaslahati nafsihi (Terlilit hutang demi kemaslahatan atau kebutuhan dirinya)<br>b.
+                        Ghârim li ishlâhi dzatil bain ( Terlilit hutang karena mendamaikan manusia, qabilah atau
+                        suku)</em></p>
+
+
+
+                <p></p>
+
+
+
+                <p><strong><em>5. Mualaf</em></strong><br>Mualaf juga termasuk orang yang berhak menerima zakat untuk
+                    mendukung penguatan iman dan takwa mereka dalam memeluk agama Islam. Zakat yang diberikan kepada
+                    mualaf memiliki peran sosial sebagai alat mempererat persaudaraan sesama muslim.</p>
+
+
+
+                <p></p>
+
+
+
+                <p><strong><em>6. Fisabilillah<br></em></strong>Golongan fisabilillah adalah seseorang atau sebuah
+                    lembaga yang memiliki kegiatan utama berjuang di jalan Allah dalam rangka menegakkan agama Islam.
+                    Para fisabilillah penerima zakat saat ini dapat berupa organisasi penyiaran dakwah Islam di
+                    kota-kota besar, maupun syiar Islam di daerah terpencil.</p>
+
+
+
+                <p></p>
+
+
+
+                <p><strong><em>7. Ibnu Sabil</em></strong><br>Seseorang yang berada dalam perjalanan dan kehabisan bekal
+                    itu merupakan arti dari ibnu sabil. Golongan penerima zakat ini diperuntukkan bagi orang-orang yang
+                    tidak dapat meneruskan perjalanannya terlepas dari golongan mampu atau pun sebaliknya.</p>
+
+
+
+                <p></p>
+
+
+
+                <p><strong><em>8. Amil</em></strong><br>Amil adalah kelompok terakhir yang berhak menerima zakat apabila
+                    7 kelompok lainnya sudah mendapatkan zakat. Secara bahasa berarti pengelola zakat atau orang-orang
+                    yang mengumpulkan dan mengumpulkan dana zakat yang telah diberikan oleh muzzaki (orang yang
+                    memberikan zakat).</p>
+
+
+
+                <p>Itulah 8 golongan yang berhak menerima dana zakat. Pastikan dan salurkan zakat anda melalui lembaga
+                    terpercaya seperti <strong><em>Yayasan Berkah Yatim Indonesia</em></strong>, agar zakat anda lebih
+                    bermanfaat dan memberikan dampak pemberdayaan bagi umat.</p>
             </div>
-        </header>
-
-        <div id="main-content" class="bg-light">
-            <div class="site-content mx-auto pt-5 col-lg-8 col-md-8 col-xs-8 col-10 text-justify text-dark" >
-                <div class="entry-content">
-                    <div class="image-full"></div>
-
-                    <p class="mb-4" >Perintah membayar zakat diwajibkan kepada setiap umat Islam yang mampu memenuhi kebutuhan hidupnya sehari-hari secara layak. Bagi muslim yang tidak mampu mencukupi biaya hidup, mereka tidak wajib membayar zakat, sebaliknya, mereka malah harus menerima zakat.</p>
-
-
-
-                    <p>Siapa saja orang-orang yang berhak menerima zakat? Berikut ini 8 golongan orang yang berhak menerima zakat:</p>
-
-
-
-                    <p><strong><em>1 &amp; 2. Fakir dan Miskin<br></em></strong>Kelompok fakir dan miskin merupakan warga muslim yang harus diutamakan dalam penerimaan zakat. Penyaluran dana zakat kepada fakir miskin macamnya ada dua, yaitu untuk tujuan pemenuhan kebutuhan hidup sehari-hari maupun untuk memberikan kemampuan berwirausaha.</p>
-
-
-
-                    <p></p>
-
-
-
-                    <p><strong><em>3. Riqab</em></strong><br>Di zaman Rasullullah SAW, seorang budak telah menjadi makanan sehari-hari untuk diperlakukan secara tidak manusiawi. Oleh karena itu, riqab atau secara bahasa berarti memerdekan budak menjadi salah satu sasaran penerima zakat yang berhak menurut Al Quran.</p>
-
-
-
-                    <p></p>
-
-
-
-                    <p><strong><em>4. Gharim atau Gharimin</em></strong><br>Secara bahasa, Gharim atau Gharimin diartikan sebagai orang yang terlilit hutang. Salah satu golongan penerima zakat ini dikategorikan sebagai penerima zakat yang wajib kita berikan yang terbagi menjadi 2 (dua) jenis, yaitu:</p>
-
-
-
-                    <p>a. <em>Ghârim limaslahati nafsihi (Terlilit hutang demi kemaslahatan atau kebutuhan dirinya)<br>b. Ghârim li ishlâhi dzatil bain ( Terlilit hutang karena mendamaikan manusia, qabilah atau suku)</em></p>
-
-
-
-                    <p></p>
-
-
-
-                    <p><strong><em>5. Mualaf</em></strong><br>Mualaf juga termasuk orang yang berhak menerima zakat untuk mendukung penguatan iman dan takwa mereka dalam memeluk agama Islam. Zakat yang diberikan kepada mualaf memiliki peran sosial sebagai alat mempererat persaudaraan sesama muslim.</p>
-
-
-
-                    <p></p>
-
-
-
-                    <p><strong><em>6. Fisabilillah<br></em></strong>Golongan fisabilillah adalah seseorang atau sebuah lembaga yang memiliki kegiatan utama berjuang di jalan Allah dalam rangka menegakkan agama Islam. Para fisabilillah penerima zakat saat ini dapat berupa organisasi penyiaran dakwah Islam di kota-kota besar, maupun syiar Islam di daerah terpencil.</p>
-
-
-
-                    <p></p>
-
-
-
-                    <p><strong><em>7. Ibnu Sabil</em></strong><br>Seseorang yang berada dalam perjalanan dan kehabisan bekal itu merupakan arti dari ibnu sabil. Golongan penerima zakat ini diperuntukkan bagi orang-orang yang tidak dapat meneruskan perjalanannya terlepas dari golongan mampu atau pun sebaliknya.</p>
-
-
-
-                    <p></p>
-
-
-
-                    <p><strong><em>8. Amil</em></strong><br>Amil adalah kelompok terakhir yang berhak menerima zakat apabila 7 kelompok lainnya sudah mendapatkan zakat. Secara bahasa berarti pengelola zakat atau orang-orang yang mengumpulkan dan mengumpulkan dana zakat yang telah diberikan oleh muzzaki (orang yang memberikan zakat).</p>
-
-
-
-                    <p>Itulah 8 golongan yang berhak menerima dana zakat. Pastikan dan salurkan zakat anda melalui lembaga terpercaya seperti <strong><em>Yayasan DATI</em></strong>, agar zakat anda lebih bermanfaat dan memberikan dampak pemberdayaan bagi umat.</p>
-                </div>
-                <br/>
-         </div>
+            <br />
+        </div>
 
     </div>
 
-        <!-- Footer-->
-        <footer class="bg-light py-5">
-            <div class="container"><div class="small text-center text-muted">Copyright © 2021 - Start Bootstrap - Berkah Yatim Indonesia</div></div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <!-- <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script> -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Third party plugin JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-        <!-- Core theme JS-->
-        <!-- <script src="js/scripts.js"></script> -->
-        <script src="../js/script-album.js"></script>
-    </body>
+    <div id="app" class="col-lg-12">
+        <navbar-byi></navbar-byi>
+        <footer-byi></footer-byi>
+    </div>
+    <!-- Bootstrap core JS-->
+    <!-- <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="../js/components.js"></script>
+    <script src="../js/scripts.js"></script>
+    <script src="../js/script-album.js"></script>
+</body>
+
 </html>
