@@ -83,7 +83,11 @@ var example1 = new Vue({
     axios
       .get('https://api.github.com/repos/nashihu/production_stuff/contents/bsy_images')
       .then(response => {
-      	(this.items = response.data)
+        var resp = response.data;
+        resp.sort(function (a, b) {
+          return b.download_url.localeCompare(a.download_url);
+        });
+        this.items = resp
       })
   }
 })
