@@ -4,9 +4,9 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "e1c98f8f903e8d79f461d2c5a40bf89e",
-"index.html": "1e40de9b88a984f21269cc9369a6c701",
-"/": "1e40de9b88a984f21269cc9369a6c701",
-"main.dart.js": "ec017be3a5a1bf80cf5e6ca5cc843507",
+"index.html": "a2bf94ddb195d0a98e86974a9b7c7190",
+"/": "a2bf94ddb195d0a98e86974a9b7c7190",
+"main.dart.js": "42b65a45b03716247e65b01efd17aabe",
 "favicon.png": "22f347997df00585ac2c835a0fa3afa4",
 "icons/Icon-192.png": "22f347997df00585ac2c835a0fa3afa4",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
@@ -32,18 +32,14 @@ const RESOURCES = {
 "assets/assets/img/program/rDhuafaTHR.jpeg": "3524bfaa241b046c045092cb755f10e3",
 "assets/assets/img/program/rTahfidz.jpeg": "c70070c1402e55dfca57dbec5a0278cc",
 "assets/assets/img/program/qurban.jpg": "d96d817eb5ae31152c22c217ce857cd5",
-"assets/assets/img/program/zakatFitrah.jpeg": "f2dd343d7a07c4e1f3e0cbb6c9924d91",
+"assets/assets/img/program/zakatFitrah.jpeg": "3ef2fb56616522c352fca7c8d9bff1b3",
 "assets/assets/img/program/profesi.jpeg": "39d8ed4a0524463e5c711526142d30ee",
 "assets/assets/img/program/tanah.jpg": "8514ada6ec6aa5e9c75f729ff7c27d31",
 "assets/assets/img/program/rYatimTajil.jpeg": "72699df980907bbf0e80bf1c77551104",
 "assets/assets/img/program/rYatimTHR.jpeg": "1592a4cb7e9f4a5740a28c7af8bf3711",
 "assets/assets/img/program/rDuat.jpeg": "2921dcbc0ff108c1b62588067d2e73ab",
 "assets/assets/img/program/zakat.jpg": "67a1527194cc776f78cf4912eda4cbc8",
-"app.js": "1e575782399dce4a147bb6543c2b77f6",
-"canvaskit/canvaskit.js": "43fa9e17039a625450b6aba93baf521e",
-"canvaskit/profiling/canvaskit.js": "f3bfccc993a1e0bfdd3440af60d99df4",
-"canvaskit/profiling/canvaskit.wasm": "a9610cf39260f60fbe7524a785c66101",
-"canvaskit/canvaskit.wasm": "04ed3c745ff1dee16504be01f9623498"
+"app.js": "1e575782399dce4a147bb6543c2b77f6"
 };
 
 // The application shell files that are downloaded before a service worker can
