@@ -37451,7 +37451,7 @@ A.ae1.prototype={
 $1(a){return new A.l2(null)},
 $S:117}
 A.ae2.prototype={
-$1(a){return new A.l7("/wakaf-pembangunan",null)},
+$1(a){return new A.l7("/zakat-fitrah",null)},
 $S:146}
 A.mv.prototype={
 aO(){return new A.NR(B.l)}}
@@ -71630,7 +71630,7 @@ s($,"aFr","d2",()=>A.jC(A.alv(A.a([1],t.t)).buffer,0,null).getInt8(0)===1?B.U:B.
 s($,"aIB","Re",()=>new A.SF(A.q(t.N,A.N("k8"))))
 s($,"aIR","arP",()=>new A.a05())
 r($,"aF9","j9",()=>A.fQ("Wakaf Pembangunan","assets/img/program/lahan.jpeg","**JUMAT BERKAH SAATNYA BERWAKAF**\n\nHari jumat adalah hari raya bagi seorang muslim dalam sepekan dari hari-hari biasanya. Mari ambil momentum rayakan hari jumat dan raih keberkahan tiada akhir dengan berwakaf!\n\nTunaikan wakaf terbaikmu mulai 100 Ribu Rupiah ! **Ikut Partisipasi Wakaf Pembangunan Pondok Tahfidz Yatim & Dhuafa Al Mukarromah, Cianjur**\n\nhttps://youtu.be/KRswZr858kw\n\n\n\ud83d\udcb3 BSI (ex-BSM) 7148434306\n\n\ud83d\udc64 a.n Yayasan Berkah Yatim Indonesia\n\nKode bank: 451\n \n\ud83d\udcf1Konfirmasi Wakaf:\nhttps://wa.me/6281912002001\n\n","/wakaf-pembangunan",1e5))
-r($,"aFb","aie",()=>A.fQ("Zakat Fitrah","assets/img/program/zakatFitrah.jpeg","Rosulloh SAW mewajibkan zakat fitrah sebagai penyuci bagi orang yang berpuasa dari perbuatan yang sia sia dan kata kata yang kotor serta sebagai pemberian makanan untuk orang orang miskin ( HR Abu Dawud)\n\nBesaran zakat fitrah adalah 4 liter beras  atau dikonversikan kepada nilai uang sesuai beras yang dikonsumsi","/zakat-fitrah",26e3))
+r($,"aFb","aie",()=>A.fQ("Zakat Fitrah","assets/img/program/zakatFitrah.jpeg","Mudik Boleh \ud83d\ude97\ud83d\udef5\ud83d\udee9\ufe0f\n\nBelanja Boleh \ud83d\udecd\ufe0f\ud83d\uded2\n\nMakan Ketupat Boleh \ud83c\udf75\n\n\ud83c\udfc3\u200d\u2640\ufe0f\ud83c\udfc3\ud83c\udffb\u200d\u2642\ufe0f\ud83c\udfc3\ud83c\udffb\u200d\u2642\ufe0f\ud83c\udfc3\u200d\u2640\ufe0f\ud83c\udfc3\ud83c\udffb\u200d\u2642\ufe0f\ud83c\udfc3\u200d\u2640\ufe0f\ud83c\udfc3\u200d\u2640\ufe0f\ud83c\udfc3\ud83c\udffb\u200d\u2642\ufe0f...\nUTAMAKAN berZAKAT\n\n\u2705\nMari Sempurnakan Ibadah Ramadhan 1443 H dengan Zakat Fitrah di **UPZ Berkah Yatim Indonesia**\n\n","/zakat-fitrah",28e3))
 r($,"aFa","aid",()=>A.fQ("Zakat Fidyah","assets/img/program/zFidyah.jpeg","Yayasan Berkah Yatim Indonesia menerima & menyalurkan Zakat Fidyah","/zakat-fidyah",1e4))
 r($,"aFc","aif",()=>A.fQ("Zakat Profesi","assets/img/program/profesi.jpeg","Zakat penghasilan ini dikeluarkan setiap kali memperoleh penghasilan, nishobnya 85gr emas/tahun, jika harga emas murni saat ini Rp 800.000 maka nishob zakat per bulan 5,7 juta. Adapun besaran zakatnya adalah 2.5% dari penghasilan","/zakat-profesi",1e4))
 r($,"aF8","aic",()=>A.fQ("Zakat Emas","assets/img/program/zakatEmas.jpeg","Emas wajib dizakati ketika telah dimiliki atau disimpan selama 1 tahun oleh pemilik nya dan mencapai nishob 85gram emas.","/zakat-emas",1e4))
