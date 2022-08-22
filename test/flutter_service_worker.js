@@ -55,7 +55,7 @@ const RESOURCES = {
 "assets/assets/img/pembinaan/lomba.jpeg": "d93d5dd96269cadc3eb2414d4ea5b070",
 "assets/assets/img/pembinaan/sembako.jpeg": "a442f14c24b23329d7e0f26186666d33",
 "assets/assets/img/gmail.png": "cc25f1c11692b0d8677340604e8726b8",
-"assets/assets/img/bg-masthead.jpg": "d41f4758c194f857686beb03c49717c0",
+"assets/assets/img/bg-masterhead.jpg": "d41f4758c194f857686beb03c49717c0",
 "assets/assets/img/program/program1.jpg": "38207ab3a465786ecda751fca4e66b99",
 "assets/assets/img/program/program2.jpg": "b07f9f91bf53af305a553fc890dd786e",
 "assets/assets/img/program/program3.jpg": "88e3595eb4de8c7a9e81957a451782bd",
