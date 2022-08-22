@@ -31,11 +31,11 @@ Vue.component('footer-byi', {
         + `                                 <br/>`
         + `                                 <div class="textwidget custom-html-widget">Salurkan bantuan Anda melalui Rekening yang telah kami sediakan :`
         + `                                    <br /><br />`
-        + `                                    Rekening Syari’ah Mandiri: <br />`
+        + `                                    <img  class="mr-1" src="${baseUrl}/assets/img/bsi.png" height="20">Rekening BSI (451): <br />`
         + `                                    <span class="js-copy-bsm-btn" style="color: #42a5f5; cursor: pointer;">714 8434 306</span> <br/>`
-        + `                                    Rekening Mandiri: <br />`
+        + `                                    <img  class="mr-1" src="${baseUrl}/assets/img/mandiri.jpg" height="20">Mandiri (008): <br />`
         + `                                    <span class="js-copy-mandiri-btn" style="color: #42a5f5; cursor: pointer;">182 000 664 5022</span> <br/>`
-        + `                                    Rekening BNI: <br />`
+        + `                                    <img  class="mr-1" src="${baseUrl}/assets/img/bni.jpg" height="20">Rekening BNI (009): <br />`
         + `                                    <span class="js-copy-bni-btn" style="color: #42a5f5; cursor: pointer;">118 0279 271</span> <br/><br/>`
         + `                                    a.n <i>Yayasan Berkah Yatim Indonesia</i>`
         + `                                 </div>`
@@ -116,3 +116,30 @@ Vue.component('navbar-byi', {
         + `    </div>`
         + `</nav>`
 });
+
+Vue.component('todo-item', {
+    template: '\
+      <div class="row justify-content-center mb-3 ">\
+        <div class="  card pt-2 card-event" v-on:click="$emit(\'remove\')">\
+            <div class="row">\
+                <img class=" col-sm-12 col-md-6 col-lg-5 mb-3 img-fluid " v-bind:src="imgurl"  alt="Responsive image"/>\
+                <div class=" col-sm-12 col-md-5 col-lg-7 ">\
+                    <div class="row">\
+                        {{type}}\
+                    </div>\
+                    <div class="row">\
+                        {{datebyi}}\
+                    </div>\
+                    <h4 class="row" style="color: teal; text-align: left !important;">\
+                        {{title}}\
+                    </h4>\
+                    <h6 class="row text-left" style="color: teal;">\
+                        {{presenter}}\
+                    </h6>\
+                </div>\
+            </div>\
+        </div>\
+      </div>\
+    ',
+    props: ['title','datebyi', 'type', 'presenter', 'imgurl']
+})

@@ -10286,3 +10286,8 @@ table, th, td {
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.card-event:hover {
+  background-color: whitesmoke;
+  cursor: pointer;
+}

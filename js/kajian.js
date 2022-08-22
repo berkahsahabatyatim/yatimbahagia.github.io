@@ -1,6 +1,8 @@
 var url_string = window.location.href;
 var url = new URL(url_string);
 var c = url.searchParams.get("id");
+var paths = window.location.pathname.split('/');
+alert(paths[paths.length]);
 if (c == null) {
     c = "1";
 }
